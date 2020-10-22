@@ -1,0 +1,56 @@
+/* Body */
+
+#myGridContainer {
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+
+/* Header */
+
+#myHeader {
+    background-color: grey;
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+
+#myH1Element {}
+
+
+/* Navbar */
+
+#myNavbar {
+    background-color: thistle;
+    grid-column: 1/5;
+    grid-row: 2/3;
+}
+
+#myNavList {}
+
+#myFirstNav {}
+
+#mySecondNav {}
+
+#myThirdNav {}
+
+#myFourthNav {}
+
+
+/* Main */
+
+#myMainSection {
+    background-color: lightcoral;
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
+
+
+/* Footer */
+
+#myFunkyFooter {
+    grid-column: 1/5;
+    grid-row: 4/5;
+    background-color: burlywood;
+}
