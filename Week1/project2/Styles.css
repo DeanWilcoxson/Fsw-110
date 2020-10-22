@@ -16,7 +16,8 @@
     grid-row: 1/2;
 }
 
-#myH1Element {}
+
+/*#myH1Element {}*/
 
 
 /* Navbar */
@@ -27,15 +28,33 @@
     grid-row: 2/3;
 }
 
-#myNavList {}
+#myNavList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
 
-#myFirstNav {}
+#myFirstNav {
+    background-color: darkorange;
+    padding: 10px;
+}
 
-#mySecondNav {}
+#mySecondNav {
+    background-color: royalblue;
+    padding: 10px;
+}
 
-#myThirdNav {}
+#myThirdNav {
+    background-color: mediumorchid;
+    padding: 10px;
+}
 
-#myFourthNav {}
+#myFourthNav {
+    background-color: blueviolet;
+    padding: 10px;
+}
 
 
 /* Main */
