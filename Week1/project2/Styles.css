@@ -16,8 +16,9 @@
     grid-row: 1/2;
 }
 
-
-/*#myH1Element {}*/
+#myH1Element {
+    background-color: snow;
+}
 
 
 /* Navbar */
