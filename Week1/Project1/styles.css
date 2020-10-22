@@ -1,0 +1,33 @@
+#myDivision {
+    background-color: grey;
+}
+
+#myHeader {
+    background-color: wheat;
+    padding: 5px;
+}
+
+#myGridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    text-align: center;
+}
+
+#myBox1Item {
+    grid-column: 1/2;
+    background-color: lawngreen;
+    padding: 5px;
+}
+
+#myBox2Item {
+    grid-column: 2/3;
+    background-color: lightseagreen;
+    padding: 5px;
+}
+
+#myBox3Item {
+    grid-column: 3/4;
+    background-color: magenta;
+    padding: 5px;
+}
