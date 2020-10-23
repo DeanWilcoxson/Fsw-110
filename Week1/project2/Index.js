@@ -1,1 +1,2 @@
-document.getElementById(myH1Element);
+var myH1Element = document.getElementById("myH1Element");
+myH1Element.textContent = "I'm Text";

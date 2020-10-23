@@ -5,4 +5,4 @@ var myObject = {
     age: 29,
     hobbyList: ["coding", "games", "sports", "rapping", "family-time", ]
 };
-console.log(myObject);
+console.log(document);
