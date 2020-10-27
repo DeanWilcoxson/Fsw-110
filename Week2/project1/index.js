@@ -19,6 +19,7 @@ newParagraph.style.color = "red";
 newParagraph.style.textAlign = "center";
 newParagraph.style.fontSize = "28px";
 newParagraph.style.backgroundColor = "#bad";
+newParagraph.style.textTransform = "uppercase";
 
 
 //Create an Ordered List Element in the HTML using only Javascript
