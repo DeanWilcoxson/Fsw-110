@@ -38,10 +38,6 @@ myParagraph.textContent = " Lorem ipsum dolor sit amet, consectetur adipiscing e
 //Append the Paragraph to the Body
 document.body.append(myParagraph);
 
-//Paragraph Styling
-myParagraph.style.color = "#4ad";
-myParagraph.style.backgroundColor = "#def";
-
 //-----------------Unordered List-----------------
 var myUnorderedList = document.createElement("ul");
 
@@ -95,6 +91,5 @@ newFooter.textContent = "\u00A9 2020 Webdev Student (Dean Wilcoxson)";
 document.body.append(newFooter);
 
 //Footer Styling
-newFooter.style.color = "#4ad";
 newFooter.style.backgroundColor = "transparent";
 newFooter.style.textAlign = "center";
