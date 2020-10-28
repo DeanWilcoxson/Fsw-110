@@ -29,19 +29,6 @@ newNav.style.padding = "20px";
 newNav.style.color = "#4ad";
 newNav.style.backgroundColor = "#cde";
 
-var newNav2 = document.createElement("nav");
-
-//Navbar Content
-newNav2.textContent = "Nav2";
-
-//Append the Nav to the Body
-document.body.append(newNav2);
-
-//Navbar Styling
-newNav2.style.padding = "20px";
-newNav2.style.color = "#4ad";
-newNav2.style.backgroundColor = "#cde";
-
 //--------------------Paragraph--------------------
 var myParagraph = document.createElement("p");
 
