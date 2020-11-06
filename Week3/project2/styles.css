@@ -1,0 +1,8 @@
+/* Step 4. Go to your CSS file and create a class called ".border" that has 
+a border of: 2px solid black, a padding of: 5px, a margin of: 5px; */
+
+.border {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
