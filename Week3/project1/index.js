@@ -17,7 +17,7 @@ for (i = 0; i < 10; i++) {
 //step5.Create a new array
 var names = ["steve", "larry", "joe", "shirley", "steph", "nate", "rick", "emily"];
 
-//step6.Create a for loop that iterates through the array in Step 5.
+/*step6.Create a for loop that iterates through the array in Step 5 and then adds them to the Website*/
 for (i = 0; i < names.length; i++) {
 
     //repeat step1.create an Element
