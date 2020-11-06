@@ -13,7 +13,23 @@ for (i = 0; i < 10; i++) {
     //step3.Append it to the body
     document.body.append(newH1Element);
 }
+
+//step5.Create a new array
 var names = ["steve", "larry", "joe", "shirley", "steph", "nate", "rick", "emily"];
+
+//step6.Create a for loop that iterates through the array in Step 5.
 for (i = 0; i < names.length; i++) {
-    console.log(names[i]);
+
+    //repeat step1.create an Element
+    var newListOfNames = document.createElement("p");
+
+    //repeat step2.Give it Content and Style
+    newListOfNames.innerHTML = (names[i]);
+    newListOfNames.style.color = "red";
+    newListOfNames.style.backgroundColor = "darkgrey";
+    newListOfNames.style.fontSize = "28px";
+    newListOfNames.style.textAlign = "center";
+
+    //repeat step3.Append it to the body
+    document.body.append(newListOfNames);
 }
