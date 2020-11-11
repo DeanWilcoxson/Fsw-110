@@ -15,12 +15,12 @@ function regularBackground() {
 //Create the event listeners for "hover"
 var myHoverSquare = document.getElementById("hover");
 myHoverSquare.addEventListener("mouseover", hoverColor);
-myHoverSquare.addEventListener("keydown", hoverColor);
 //What to do when the "mouseover" happens
 function hoverColor() {
     myHoverSquare.style.backgroundColor = "blue";
     myHoverSquare.style.color = "white";
 }
+
 //Create the event listeners for "click"
 var myClickSquare = document.getElementById("click");
 myClickSquare.addEventListener("mousedown", downColor);
