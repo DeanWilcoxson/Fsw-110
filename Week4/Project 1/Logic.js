@@ -26,6 +26,7 @@ myClickSquare.addEventListener("mouseup", upColor);
 
 function downColor() {
     myClickSquare.style.backgroundColor = "red";
+    myClickSquare.style.color = "white";
 }
 
 function upColor() {
@@ -46,4 +47,5 @@ document.addEventListener("wheel", scrollColor);
 
 function scrollColor() {
     myScrollSquare.style.backgroundColor = "orange";
+    myScrollSquare.style.color = "blue";
 }
