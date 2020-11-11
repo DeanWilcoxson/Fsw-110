@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Aesthetics.css">
+    <title>DJ Javascript</title>
+</head>
+
+<body>
+    <div>
+        <p id="hover" onmouseover="hoverColor()" onmouseout="regularBackground()">Hover</p>
+
+        <p id="click" onmousedown="downColor()" onmouseup="upColor()" onmouseout="regularBackground()">Click</p>
+
+        <p id="dbl-click" ondblclick="dblClickColor()" onmouseout="regularBackground()">Dbl Click</p>
+
+        <p id="scroll" onscroll="scrollColor()" onmouseout="regularBackground()">Scroll</p>
+    </div>
+    <script src="Logics.js"></script>
+</body>
+
+</html>

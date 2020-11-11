@@ -1,0 +1,31 @@
+#hover {
+    border: 1px solid blue;
+    margin: center;
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#click {
+    border: 1px solid blue;
+    margin: center;
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#dbl-click {
+    border: 1px solid blue;
+    margin: center;
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#scroll {
+    border: 1px solid blue;
+    margin: center;
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
