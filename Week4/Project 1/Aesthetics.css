@@ -1,39 +1,39 @@
 #hover {
     border: 5px solid blue;
-    margin: center;
-    padding: 50px;
+    padding: 25px;
     text-align: center;
     font-size: 50px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 #click {
     border: 5px solid red;
-    margin: center;
-    padding: 50px;
+    padding: 25px;
     text-align: center;
     font-size: 50px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 #dbl-click {
     border: 5px solid green;
-    margin: center;
-    padding: 50px;
+    padding: 25px;
     text-align: center;
     font-size: 44px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 #scroll {
     border: 5px solid orange;
-    margin: center;
-    padding: 50px;
+    padding: 25px;
     text-align: center;
     font-size: 50px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
