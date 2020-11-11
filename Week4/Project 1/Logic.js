@@ -13,6 +13,7 @@ function regularBackground() {
 
 var myHoverSquare = document.getElementById("hover");
 myHoverSquare.addEventListener("mouseover", hoverColor);
+myHoverSquare.addEventListener("keydown", hoverColor);
 
 function hoverColor() {
     myHoverSquare.style.backgroundColor = "blue";
