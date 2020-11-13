@@ -1,0 +1,76 @@
+/* Add Block */
+
+#addition {
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#add1 {
+    margin: center;
+}
+
+#add2 {
+    margin: center;
+}
+
+#addbtn {
+    background-color: blue;
+    color: cornsilk;
+}
+
+
+/* Sub Block */
+
+#subtraction {
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#sub1 {
+    margin: center;
+}
+
+#sub2 {
+    margin: center;
+}
+
+#subbtn {
+    background-color: blue;
+    color: cornsilk;
+}
+
+
+/* Mul Block */
+
+#multiplication {
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#mul1 {
+    margin: center;
+}
+
+#mul2 {
+    margin: center;
+}
+
+#mulbtn {
+    background-color: blue;
+    color: cornsilk;
+}
+
+#calculation {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 25px;
+}
