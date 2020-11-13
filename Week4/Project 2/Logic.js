@@ -1,4 +1,4 @@
-//Addition Block
+//=======================================Addition Block===========================================
 function addTwo(num1, num2) {
     var sum = +num1 + +num2;
     return (sum);
@@ -12,7 +12,7 @@ addBtn.addEventListener("click", function() {
     addCalc.textContent = sum;
 });
 
-//Subtraction Block
+//=======================================Subtraction Block========================================
 function subTwo(num1, num2) {
     var result = num1 - num2;
     return (result);
@@ -26,8 +26,7 @@ subBtn.addEventListener("click", function() {
     subCalc.textContent = result;
 });
 
-
-//Multiplication Block
+//======================================Multiplication Block======================================
 function mulTwo(num1, num2) {
     var answer = num1 * num2;
     return (answer);
