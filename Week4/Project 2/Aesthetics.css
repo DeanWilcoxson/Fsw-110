@@ -1,6 +1,8 @@
-/* Add Block */
+/*===========Add Block============*/
 
 #addition {
+    color: cornsilk;
+    background-color: grey;
     border: 2px solid black;
     border-radius: 5px;
     display: flex;
@@ -20,12 +22,16 @@
 #addbtn {
     background-color: blue;
     color: cornsilk;
+    border-radius: 4px;
+    margin: auto;
 }
 
 
-/* Sub Block */
+/*==========Sub Block===========*/
 
 #subtraction {
+    color: cornsilk;
+    background-color: grey;
     border: 2px solid black;
     border-radius: 5px;
     display: flex;
@@ -43,14 +49,18 @@
 }
 
 #subbtn {
-    background-color: blue;
+    background-color: red;
     color: cornsilk;
+    border-radius: 4px;
+    margin: auto;
 }
 
 
-/* Mul Block */
+/*==========Mul Block===========*/
 
 #multiplication {
+    color: cornsilk;
+    background-color: grey;
     border: 2px solid black;
     border-radius: 5px;
     display: flex;
@@ -68,9 +78,14 @@
 }
 
 #mulbtn {
-    background-color: blue;
+    background-color: green;
     color: cornsilk;
+    border-radius: 4px;
+    margin: auto;
 }
+
+
+/*=========Calculation==========*/
 
 #calculation {
     border: 2px solid black;

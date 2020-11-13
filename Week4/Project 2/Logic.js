@@ -28,3 +28,15 @@ subBtn.addEventListener("click", function() {
 
 
 //Multiplication Block
+function mulTwo(num1, num2) {
+    var answer = num1 * num2;
+    return (answer);
+}
+var mulBtn = document.getElementById("mulbtn");
+mulBtn.addEventListener("click", function() {
+    var num1 = document.getElementById("mul1").value;
+    var num2 = document.getElementById("mul2").value;
+    var mulCalc = document.getElementById("calculation");
+    var answer = mulTwo(num1, num2);
+    mulCalc.textContent = answer;
+});
