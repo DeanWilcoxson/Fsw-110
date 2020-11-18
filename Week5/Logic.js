@@ -1,5 +1,5 @@
 var form = document.getElementById("FormID");
-form.style.backgroundColor = "grey";
+form.style.backgroundColor = "rgba(0, 0, 5, 0.6)";
 form.style.display = "flex";
 form.style.flexDirection = "column";
 form.style.justifyContent = "center";
