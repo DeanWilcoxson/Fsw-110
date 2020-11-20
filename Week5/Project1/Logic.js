@@ -5,7 +5,8 @@ var birthday = document.getElementById("birthday");
 var buttonVar = document.getElementById("button");
 
 buttonVar.addEventListener("click", function() {
-    window.alert("Hello " + name1.value + " you are " + age.value + " and your Birthday is: " + birthday.value);
+    alert("Okay! Hello " + name1.value + " you are " + age.value + " and your Birthday is: " + birthday.value);
+    form.reset();
 });
 
 //Styling
