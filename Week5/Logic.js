@@ -1,4 +1,14 @@
 var form = document.getElementById("FormID");
+var name1 = document.getElementById("name1");
+var age = document.getElementById("age");
+var birthday = document.getElementById("birthday");
+var buttonVar = document.getElementById("button");
+
+buttonVar.addEventListener("click", function() {
+    window.alert("Hello " + name1.value + " you are " + age.value + " and your Birthday is: " + birthday.value);
+});
+
+//Styling
 form.style.backgroundColor = "rgba(0, 0, 5, 0.6)";
 form.style.display = "flex";
 form.style.flexDirection = "column";
@@ -11,36 +21,17 @@ form.style.boxShadow = "5px 5px 5px rgba(0, 0, 5, 0.6)";
 form.style.padding = "10px";
 form.style.color = "Blue";
 form.style.textShadow = "2px 2px 3px rgba(0, 0, 5, 0.6)";
-
-var username = document.getElementById("name");
-username.style.margin = "10px";
-username.style.display = "flex";
-username.style.flexDirection = "row";
-username.style.boxShadow = "5px 5px 5px rgba(0, 0, 5, 0.6)";
-
-var password = document.getElementById("password");
-password.style.margin = "10px";
-password.style.display = "flex";
-password.style.flexDirection = "row";
-password.style.boxShadow = "5px 5px 5px rgba(0, 0, 5, 0.6)";
-password.addEventListener("change", passwordCheck);
-
-var passwordConfirm = document.getElementById("confirm");
-passwordConfirm.style.margin = "10px";
-passwordConfirm.style.display = "flex";
-passwordConfirm.style.flexDirection = "row";
-passwordConfirm.style.boxShadow = "5px 5px 5px rgba(0, 0, 5, 0.6)";
-passwordConfirm.addEventListener("keyup", passwordCheck);
-
-var accountCreated = document.getElementById("button");
-accountCreated.style.margin = "10px";
-accountCreated.style.boxShadow = "5px 5px 5px rgba(0, 0, 5, 0.6)";
-
-function passwordCheck() {
-    if (password.value != passwordConfirm.value) {
-        passwordConfirm.setCustomValidity("Please make sure the passwords match");
-    } else if (password.value == passwordConfirm.value) {
-        passwordConfirm.setCustomValidity("Welcome " + username.value + "! You are now a Free Member!");
-    }
-}
-form.addEventListener("submit", passwordCheck);
+name1.style.margin = "10px";
+name1.style.display = "flex";
+name1.style.flexDirection = "row";
+name1.style.boxShadow = "5px 5px 5px rgba(0, 0, 5, 0.6)";
+age.style.margin = "10px";
+age.style.display = "flex";
+age.style.flexDirection = "row";
+age.style.boxShadow = "5px 5px 5px rgba(0, 0, 5, 0.6)";
+birthday.style.margin = "10px";
+birthday.style.display = "flex";
+birthday.style.flexDirection = "row";
+birthday.style.boxShadow = "5px 5px 5px rgba(0, 0, 5, 0.6)";
+buttonVar.style.margin = "10px";
+buttonVar.style.boxShadow = "5px 5px 5px rgba(0, 0, 5, 0.6)";
