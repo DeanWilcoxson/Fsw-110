@@ -1,14 +1,21 @@
+document.getElementById("button").addEventListener("click", function() {
+    var name1 = document.getElementById("name1");
+    var age = document.getElementById("age");
+    var birthday = document.getElementById("birthday");
+    alert(name1.value + " " + age.value + " " + birthday.value + " ");
+});
 var form = document.getElementById("FormID");
-var name1 = document.getElementById("name1");
-var age = document.getElementById("age");
-var birthday = document.getElementById("birthday");
+
+
+
+
+/*;
 var buttonVar = document.getElementById("button");
 
 buttonVar.addEventListener("click", function() {
     alert("Okay! Hello " + name1.value + " you are " + age.value + " and your Birthday is: " + birthday.value);
-    form.reset();
 });
-
+ */
 //Styling
 form.style.backgroundColor = "rgba(0, 0, 5, 0.6)";
 form.style.display = "flex";
