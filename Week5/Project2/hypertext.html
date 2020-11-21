@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other types of Html Inputs</title>
+    <link href="aesthetics.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="myTitle">Welcome to Cloud Nine Airlines!</h1>
+    <form id="myFormID">
+        <span>First Name<input name="fName" type="text" id="firstName" placeholder="Dean" required></span>
+        <span>Last Name<input name="lName" type="text" id="lastName" placeholder="Wilcoxson" required></span>
+        <span>Age<input name="age" type="number" id="ageNum" placeholder="29" required></span>
+        <span> Male <input name="gender" type="radio" id="genderMale" required> 
+            Female <input name="gender" type="radio" id="genderFemale" required></span>
+        <span>Dietary Restrictions?</span>
+        <span> Vegan <input name="diet" type="checkbox" id="vegan"> 
+              Kosher <input name="diet" type="checkbox" id="Kosh"> 
+            CHF(sodium-free) <input name="diet" type="checkbox" id="sodium" ></span>
+        <span>Where would you like to Travel? <select name="location">
+            <option value="Scranton">Scranton</option>
+            <option value="Ireland">Ireland</option>
+            <option value="Hawaii">Hawaii</option>
+        </select></span>
+        <button>Ride a Cloud!</button>
+    </form>
+    <script src="logic.js"></script>
+</body>
+<footer id="myFooter">&copy;2020 WebDev Student (Dean Wilcoxson) </footer>
+
+</html>

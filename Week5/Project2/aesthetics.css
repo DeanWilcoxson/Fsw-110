@@ -1,0 +1,40 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGNsb3Vkc3xlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=1000&q=60");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#myTitle {
+    text-align: center;
+}
+
+#myFooter {
+    text-align: center;
+}
+
+#myFormID {
+    display: grid;
+    grid-template-rows: repeat(8, 2fr);
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    border-style: outset;
+    border-radius: 15px;
+    background-color: rgba(240, 255, 255, 0.65);
+}
+
+#firstName {
+    grid-column: 1/2;
+    display: flex;
+}
+
+#lastName {
+    grid-column: 2/3;
+    display: flex;
+}
+
+#ageNum {
+    grid-column: 3/4;
+    display: flex;
+}

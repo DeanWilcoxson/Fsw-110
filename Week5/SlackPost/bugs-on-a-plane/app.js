@@ -2,7 +2,7 @@ var form = document.getElementByID("arline-form");
 var submit = document.getElementByID(submit);
 var query = document.querySelector;
 
-function formAlert{} {
+function formAlert {} {
     var firstName = form.elements["firstName"].value;
     var lastName = form.elements["lastName"].value;
     var age = form.elements["age"].value;
@@ -24,4 +24,4 @@ function formAlert{} {
 }
 
 
-submit.addEventListener("click", formalert);
+submit.addEventListener("click", form);
