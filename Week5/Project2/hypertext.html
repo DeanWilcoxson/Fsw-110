@@ -12,30 +12,20 @@
     <h1 id="myTitle">Welcome to Cloud Nine Airlines!</h1>
     <form id="myFormID">
         <span>First Name<input name="fName" type="text" id="firstName" placeholder="Dean" required /></span>
-
         <span>Last Name<input name="lName" type="text" id="lastName" placeholder="Wilcoxson" required /></span>
-
         <span>Age<input name="age" type="number" id="ageNum" placeholder="29" required /></span>
-
-        <span>
-            Male
-            <input name="gender" type="radio" id="genderMale" value="male" required />
-            Female
-            <input name="gender" type="radio" id="genderFemale" value="female" required /></span>
-
+        <span>Male<input name="gender" type="radio" id="genderMale" value="male" required />
+        Female<input name="gender" type="radio" id="genderFemale" value="female" required /></span>
         <span>Dietary Restrictions?</span>
-        <span>
-            Vegan <input name="diet" type="checkbox" id="vegan" /> Kosher
-            <input name="diet" type="checkbox" id="Kosh" /> CHF(sodium-free)
-            <input name="diet" type="checkbox" id="sodium" /></span>
-
+        <span>Vegan<input name="diet" type="checkbox" id="vegan" />
+            Kosher<input name="diet" type="checkbox" id="kosh" />
+            CHF(sodium-free)<input name="diet" type="checkbox" id="sodium" /></span>
         <span>Where would you like to Travel?
             <select id="location" name="location">
                 <option value="Scranton">Scranton</option>
                 <option value="Ireland">Ireland</option>
                 <option value="Hawaii">Hawaii</option>
             </select></span>
-
         <button id="submit">Ride a Cloud!</button>
     </form>
     <script src="logic.js"></script>
