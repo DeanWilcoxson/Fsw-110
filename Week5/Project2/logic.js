@@ -12,9 +12,9 @@ const submit = document.getElementById("submit").addEventListener("click", funct
     const chf = document.getElementById("sodium");
 
     function manOrWoman() {
-        if (male.selected === true) {
+        if (male.checked) {
             return "male";
-        } else if (female.selected === true) {
+        } else if (female.checked) {
             return "female";
         }
     }
