@@ -2,25 +2,29 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Build a Todo List</title>
-    <link rel="stylesheet" href="CapstoneTODO.css">
+    <link rel="stylesheet" href="CapstoneTODO.css" />
 </head>
 
 <body>
     <h1 id="header">Build Your To-Do List!</h1>
     <form action="#" id="form">
         <div id="titleDiv">
-            <input id="title" type="text" size="15" placeholder="Name of Task" style="text-align: center;" required>
+            <input id="title" type="text" placeholder="Name of Task" style="text-align: center;" required />
         </div>
         <div id="descriptionDiv">
-            <input id="desc" type="text" size="50" placeholder="Short description of Task" style="text-align: center;" required>
+            <input id="description" type="text" placeholder="Short description of Task" style="text-align: center;" required />
         </div>
-        <button id="buttonSub"><b>Add Item</b></button>
+        <span style="text-align: center;"><button id="buttonSub"><b>Add Item</b></button></span>
     </form>
-    <ul id="toDo">To-Do-List:</ul>
+    <ol id="toDo">
+        To-Do List:
+    </ol>
     <script src="CapstoneTODO.js"></script>
+    <span style="text-align: center;"><button onclick="window.print()" id="buttonSub"><b>Print this page</b></button></span>
+    <div id="footer">&copy; 2020 Webdev Student (Dean Wilcoxson)</div>
 </body>
 
 </html>
