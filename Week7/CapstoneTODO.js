@@ -1,13 +1,11 @@
 /* jshint esversion: 6 */
+
 //Selecting Form Elements with Javascript.
 let title = document.getElementById("title");
 let description = document.getElementById("description");
 let buttonVar = document.getElementById("buttonSub");
 let toDoList = document.getElementById("toDo");
 let formVar = document.getElementById("form");
-
-//Create an Empty Array for the List Items to be pushed into, for calling them after created.
-let listedTasks = [];
 
 //Add Tasks to the List.
 function addListItem() {
@@ -30,9 +28,6 @@ function addListItem() {
         deleteListItem.textContent = "Delete";
         listItem.append(deleteListItem);
 
-        //Push created Item to the List Array.
-        listedTasks.push(listItem);
-
         //Reset Form for next Task to be created.
         form.reset();
 
@@ -43,12 +38,12 @@ function addListItem() {
 buttonVar.addEventListener("click", addListItem);
 
 //Delete list Items from the To-Do List.
-/* toDoList.addEventListener("click", function(e) {
+toDoList.addEventListener("click", function(e) {
     let deleteButton = document.getElementsByClassName("Delete");
-    for (i = 0, i < deleteButton.length; i++;) {
+    for (i = 0; i < deleteButton.length; i++) {
         if (e.target == deleteButton[i]) {
-            let deleted = deleteButton[i];
+            let deleted = deleteButton[i].parentNode;
             toDoList.removeChild(deleted);
         }
     }
-}); */
+});
